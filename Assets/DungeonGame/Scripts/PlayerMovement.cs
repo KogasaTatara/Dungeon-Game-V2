@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            transform.position = new Vector3(0,0,0);
+            animator.SetTrigger("Atk");
         }
     }
 
